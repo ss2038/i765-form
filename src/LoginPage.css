@@ -1,0 +1,122 @@
+/* .login-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .button-group button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-group button:hover {
+    background-color: #0056b3;
+  }
+   */
+
+/* LoginPage.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+  background-color: #f0f0f0; /* A light background for the page */
+}
+
+.page-header {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff; /* A white background for the header */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: inherit;
+  color: inherit;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Full width */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.form-content {
+  width: 100%;
+  max-width: 320px; /* Control the width of the form */
+  padding: 20px;
+  margin: 20px; /* Added margin around the form */
+  background: #fff; /* White background for the form */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the text inside the form */
+  
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: calc(100% - 16px); /* Factor in the padding */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between; /* Space out buttons */
+  margin-top: 20px; /* Space between input fields and buttons */
+}
+
+.button-group button {
+  width: 48%; /* Adjust width for side-by-side buttons */
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #007bff; /* Blue background for buttons */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.message {
+  margin-top: 20px;
+  color: #d9534f; /* Error message color */
+  font-family: inherit;
+}
